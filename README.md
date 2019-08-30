@@ -1,1 +1,4 @@
 # DFA-Intersection-Finder
+A python script that finds the intersection of two [Deterministic Finite Autonoma](https://en.wikipedia.org/wiki/Deterministic_finite_automaton) constructed in [JFLAP](http://www.jflap.org/). Running the script will prompt the user for two .jff filenames that contain DFAs, as well as an output filename where the intersection DFA will be constructed.
+
+This script was written for a Computing Theory assignment, which contained several questions requiring us to find the intersection between different DFAs, regexes and grammars. The course did not explicitly teach us how to find these intersections, and methods found online using JFLAP itself seemed overcomplicated and error-prone, and so I wrote a python script to find the intersection using an algorithm that I knew was sure to output the correct answer.
